@@ -29,6 +29,6 @@ class FileUploadController extends Controller
 
     function download()
     {
-        return Storage::disk('local')->download('CMNSwbY3g32WHHTTUjx07zCAusv8vMmKuUhyHsPL.jpg');
+        // return Storage::disk('local')->download('CMNSwbY3g32WHHTTUjx07zCAusv8vMmKuUhyHsPL.jpg');
     }
 }
